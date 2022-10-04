@@ -1,0 +1,27 @@
+/*
+
+class parent
+class child : public parent
+class grandchild : public child
+
+1.meaning of public is that child and grandchild won't be able to access both 
+private and second thing is child and grandchild will be able to access both 
+public and protected.
+
+2.protected would be inherited as protected and public would be inherited as
+public. they won't be loose their properties.
+
+
+
+class parent
+class child : protected parent
+class grandchild : protected child
+
+
+1.Protected and Public in Parent class would be inherited as Protected
+in child and grandchild classes.
+
+
+
+
+*/

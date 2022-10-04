@@ -1,0 +1,13 @@
+isA ->
+
+1.It is based on inheritence.
+2.It exposes all public data of base class.
+3.It is static binding (compile time).
+
+
+hasA->
+
+1.It is based on onject.
+2.It exposes only public data of derived class.
+3.It is dynamic binding (run time).
+
